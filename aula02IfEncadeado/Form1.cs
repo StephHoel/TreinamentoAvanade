@@ -20,24 +20,28 @@ namespace aula02IfEncadeado
         private void btnVerificar_Click(object sender, EventArgs e)
         {
             byte idade;
+            string mensagem;
+            MessageBoxIcon icone;
 
             idade = byte.Parse(txtIdade.Text);
 
             if (idade < 16)
             {
-                MessageBox.Show("Você não pode votar e nem embargar!", "ONG",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                mensagem = "Você não pode votar e nem embargar!";
+                icone = MessageBoxIcon.Error;
             }
             else if (idade < 18)
             {
-                MessageBox.Show("Voto facultativo. Embarque permitido!", "ONG",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                mensagem = "Voto facultativo. Embarque permitido!";
+                icone = MessageBoxIcon.Warning;
             }
             else
             {
-                MessageBox.Show("Voto obrigatório. Embarque permitido!", "ONG",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                mensagem = "Voto obrigatório. Embarque permitido!";
+                icone = MessageBoxIcon.Information;
             }
+
+            MessageBox.Show(mensagem, "ONG", MessageBoxButtons.OK, icone);
         }
     }
 }
