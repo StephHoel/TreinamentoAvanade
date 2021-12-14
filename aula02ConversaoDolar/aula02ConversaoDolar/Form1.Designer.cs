@@ -60,7 +60,7 @@ namespace aula02ConversaoDolar
             this.btnConvert.Location = new System.Drawing.Point(76, 203);
             this.btnConvert.Name = "btnConvert";
             this.btnConvert.Size = new System.Drawing.Size(112, 34);
-            this.btnConvert.TabIndex = 2;
+            this.btnConvert.TabIndex = 3;
             this.btnConvert.Text = "Converter";
             this.btnConvert.UseVisualStyleBackColor = true;
             this.btnConvert.Click += new System.EventHandler(this.btnConvert_Click);
@@ -70,7 +70,7 @@ namespace aula02ConversaoDolar
             this.txtTax.Location = new System.Drawing.Point(21, 143);
             this.txtTax.Name = "txtTax";
             this.txtTax.Size = new System.Drawing.Size(232, 31);
-            this.txtTax.TabIndex = 4;
+            this.txtTax.TabIndex = 2;
             this.txtTax.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
@@ -86,8 +86,10 @@ namespace aula02ConversaoDolar
             // 
             this.txtRes.Location = new System.Drawing.Point(21, 312);
             this.txtRes.Name = "txtRes";
+            this.txtRes.ReadOnly = true;
             this.txtRes.Size = new System.Drawing.Size(232, 31);
             this.txtRes.TabIndex = 6;
+            this.txtRes.TabStop = false;
             this.txtRes.Text = "R$ 000,00";
             this.txtRes.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 

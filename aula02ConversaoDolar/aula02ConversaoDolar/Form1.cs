@@ -22,12 +22,12 @@ namespace aula02ConversaoDolar
         {
             double value, tax, res;
 
-            value = Convert.ToDouble(txtValue.Text);
-            tax   = Convert.ToDouble(txtTax.Text);
+            value = Convert.ToDouble(txtValue.Text.Replace(",","."));
+            tax   = Convert.ToDouble(txtTax.Text.Replace(",", "."));
 
             res = value * tax;
 
-            txtRes.Text = $"R$ {res.ToString("0.00")}";
+            txtRes.Text = $"R$ {res.ToString("0.00").Replace(".", ",")}";
         }
     }
 }
