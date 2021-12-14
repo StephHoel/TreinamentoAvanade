@@ -1,0 +1,16 @@
+C:\Repos\aula01\aula01\bin\Debug\netcoreapp3.1\aula01.exe
+C:\Repos\aula01\aula01\bin\Debug\netcoreapp3.1\aula01.deps.json
+C:\Repos\aula01\aula01\bin\Debug\netcoreapp3.1\aula01.runtimeconfig.json
+C:\Repos\aula01\aula01\bin\Debug\netcoreapp3.1\aula01.runtimeconfig.dev.json
+C:\Repos\aula01\aula01\bin\Debug\netcoreapp3.1\aula01.dll
+C:\Repos\aula01\aula01\bin\Debug\netcoreapp3.1\aula01.pdb
+C:\Repos\aula01\aula01\obj\Debug\netcoreapp3.1\aula01.csproj.AssemblyReference.cache
+C:\Repos\aula01\aula01\obj\Debug\netcoreapp3.1\aula01.Form1.resources
+C:\Repos\aula01\aula01\obj\Debug\netcoreapp3.1\aula01.csproj.GenerateResource.cache
+C:\Repos\aula01\aula01\obj\Debug\netcoreapp3.1\aula01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\aula01\aula01\obj\Debug\netcoreapp3.1\aula01.AssemblyInfoInputs.cache
+C:\Repos\aula01\aula01\obj\Debug\netcoreapp3.1\aula01.AssemblyInfo.cs
+C:\Repos\aula01\aula01\obj\Debug\netcoreapp3.1\aula01.csproj.CoreCompileInputs.cache
+C:\Repos\aula01\aula01\obj\Debug\netcoreapp3.1\aula01.dll
+C:\Repos\aula01\aula01\obj\Debug\netcoreapp3.1\aula01.pdb
+C:\Repos\aula01\aula01\obj\Debug\netcoreapp3.1\aula01.genruntimeconfig.cache
