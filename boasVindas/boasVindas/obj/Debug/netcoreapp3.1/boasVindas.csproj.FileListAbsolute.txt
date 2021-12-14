@@ -1,0 +1,16 @@
+C:\Repos\boasVindas\boasVindas\bin\Debug\netcoreapp3.1\boasVindas.exe
+C:\Repos\boasVindas\boasVindas\bin\Debug\netcoreapp3.1\boasVindas.deps.json
+C:\Repos\boasVindas\boasVindas\bin\Debug\netcoreapp3.1\boasVindas.runtimeconfig.json
+C:\Repos\boasVindas\boasVindas\bin\Debug\netcoreapp3.1\boasVindas.runtimeconfig.dev.json
+C:\Repos\boasVindas\boasVindas\bin\Debug\netcoreapp3.1\boasVindas.dll
+C:\Repos\boasVindas\boasVindas\bin\Debug\netcoreapp3.1\boasVindas.pdb
+C:\Repos\boasVindas\boasVindas\obj\Debug\netcoreapp3.1\boasVindas.csproj.AssemblyReference.cache
+C:\Repos\boasVindas\boasVindas\obj\Debug\netcoreapp3.1\boasVindas.frmAula01.resources
+C:\Repos\boasVindas\boasVindas\obj\Debug\netcoreapp3.1\boasVindas.csproj.GenerateResource.cache
+C:\Repos\boasVindas\boasVindas\obj\Debug\netcoreapp3.1\boasVindas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\boasVindas\boasVindas\obj\Debug\netcoreapp3.1\boasVindas.AssemblyInfoInputs.cache
+C:\Repos\boasVindas\boasVindas\obj\Debug\netcoreapp3.1\boasVindas.AssemblyInfo.cs
+C:\Repos\boasVindas\boasVindas\obj\Debug\netcoreapp3.1\boasVindas.csproj.CoreCompileInputs.cache
+C:\Repos\boasVindas\boasVindas\obj\Debug\netcoreapp3.1\boasVindas.dll
+C:\Repos\boasVindas\boasVindas\obj\Debug\netcoreapp3.1\boasVindas.pdb
+C:\Repos\boasVindas\boasVindas\obj\Debug\netcoreapp3.1\boasVindas.genruntimeconfig.cache
