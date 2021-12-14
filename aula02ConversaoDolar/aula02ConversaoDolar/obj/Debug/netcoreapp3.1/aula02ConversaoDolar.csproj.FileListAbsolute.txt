@@ -1,0 +1,16 @@
+C:\Repos\TreinamentoAvanade\aula02ConversaoDolar\aula02ConversaoDolar\bin\Debug\netcoreapp3.1\aula02ConversaoDolar.exe
+C:\Repos\TreinamentoAvanade\aula02ConversaoDolar\aula02ConversaoDolar\bin\Debug\netcoreapp3.1\aula02ConversaoDolar.deps.json
+C:\Repos\TreinamentoAvanade\aula02ConversaoDolar\aula02ConversaoDolar\bin\Debug\netcoreapp3.1\aula02ConversaoDolar.runtimeconfig.json
+C:\Repos\TreinamentoAvanade\aula02ConversaoDolar\aula02ConversaoDolar\bin\Debug\netcoreapp3.1\aula02ConversaoDolar.runtimeconfig.dev.json
+C:\Repos\TreinamentoAvanade\aula02ConversaoDolar\aula02ConversaoDolar\bin\Debug\netcoreapp3.1\aula02ConversaoDolar.dll
+C:\Repos\TreinamentoAvanade\aula02ConversaoDolar\aula02ConversaoDolar\bin\Debug\netcoreapp3.1\aula02ConversaoDolar.pdb
+C:\Repos\TreinamentoAvanade\aula02ConversaoDolar\aula02ConversaoDolar\obj\Debug\netcoreapp3.1\aula02ConversaoDolar.csproj.AssemblyReference.cache
+C:\Repos\TreinamentoAvanade\aula02ConversaoDolar\aula02ConversaoDolar\obj\Debug\netcoreapp3.1\aula02ConversaoDolar.Form1.resources
+C:\Repos\TreinamentoAvanade\aula02ConversaoDolar\aula02ConversaoDolar\obj\Debug\netcoreapp3.1\aula02ConversaoDolar.csproj.GenerateResource.cache
+C:\Repos\TreinamentoAvanade\aula02ConversaoDolar\aula02ConversaoDolar\obj\Debug\netcoreapp3.1\aula02ConversaoDolar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\TreinamentoAvanade\aula02ConversaoDolar\aula02ConversaoDolar\obj\Debug\netcoreapp3.1\aula02ConversaoDolar.AssemblyInfoInputs.cache
+C:\Repos\TreinamentoAvanade\aula02ConversaoDolar\aula02ConversaoDolar\obj\Debug\netcoreapp3.1\aula02ConversaoDolar.AssemblyInfo.cs
+C:\Repos\TreinamentoAvanade\aula02ConversaoDolar\aula02ConversaoDolar\obj\Debug\netcoreapp3.1\aula02ConversaoDolar.csproj.CoreCompileInputs.cache
+C:\Repos\TreinamentoAvanade\aula02ConversaoDolar\aula02ConversaoDolar\obj\Debug\netcoreapp3.1\aula02ConversaoDolar.dll
+C:\Repos\TreinamentoAvanade\aula02ConversaoDolar\aula02ConversaoDolar\obj\Debug\netcoreapp3.1\aula02ConversaoDolar.pdb
+C:\Repos\TreinamentoAvanade\aula02ConversaoDolar\aula02ConversaoDolar\obj\Debug\netcoreapp3.1\aula02ConversaoDolar.genruntimeconfig.cache
