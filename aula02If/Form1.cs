@@ -28,12 +28,6 @@ namespace aula02If
                 MessageBox.Show("Você pode jogar!!! :)", "Jogo - Drogas",
                     MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
-            else
-            {
-                MessageBox.Show("Você não pode jogar!!! :(", "Jogo - Drogas",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-            }
         }
     }
 }
