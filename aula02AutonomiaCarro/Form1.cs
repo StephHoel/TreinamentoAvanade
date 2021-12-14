@@ -21,9 +21,9 @@ namespace aula02AutonomiaCarro
         {
             double kmAnt, kmPos, gas, res;
 
-            kmAnt = Convert.ToDouble(txtAnt.Text.Replace(",","."));
-            kmPos = Convert.ToDouble(txtAtu.Text.Replace(",","."));
-            gas   = Convert.ToDouble(txtGas.Text.Replace(",","."));
+            kmAnt = Convert.ToDouble(txtAnt.Text.Replace(",", "."));
+            kmPos = Convert.ToDouble(txtAtu.Text.Replace(",", "."));
+            gas   = Convert.ToDouble(txtGas.Text.Replace(",", "."));
 
             res = (kmPos - kmAnt) / gas;
 
