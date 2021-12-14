@@ -53,6 +53,7 @@ namespace aula02ConversaoDolar
             this.txtValue.Name = "txtValue";
             this.txtValue.Size = new System.Drawing.Size(232, 31);
             this.txtValue.TabIndex = 1;
+            this.txtValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnConvert
             // 
@@ -70,6 +71,7 @@ namespace aula02ConversaoDolar
             this.txtTax.Name = "txtTax";
             this.txtTax.Size = new System.Drawing.Size(232, 31);
             this.txtTax.TabIndex = 4;
+            this.txtTax.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
             // 
@@ -87,6 +89,7 @@ namespace aula02ConversaoDolar
             this.txtRes.Size = new System.Drawing.Size(232, 31);
             this.txtRes.TabIndex = 6;
             this.txtRes.Text = "R$ 000,00";
+            this.txtRes.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
