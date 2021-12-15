@@ -70,5 +70,64 @@ namespace aula03Exercicios
             txtT1.Focus();
 
         }
+
+        private void btnMes_Click(object sender, EventArgs e)
+        {
+            //Utilizando a estrutura switch case, elabore um programa que
+            //leia um número referente a um mês do ano e exiba o nome do mês.
+            //Se for digitado um valor que não corresponda a um mês válido,
+            //exiba uma mensagem indicando tal situação.
+
+            string mensagem = "Mês inexistente";
+
+            if (byte.TryParse(txtMes.Text, out byte mes) && mes <= 12)
+            {
+                switch (mes)
+                {
+                    case 1:
+                        mensagem = "Janeiro";
+                        break;
+                    case 2:
+                        mensagem = "Fevereiro";
+                        break;
+                    case 3:
+                        mensagem = "Março";
+                        break;
+                    case 4:
+                        mensagem = "Abril";
+                        break;
+                    case 5:
+                        mensagem = "Maio";
+                        break;
+                    case 6:
+                        mensagem = "Junho";
+                        break;
+                    case 7:
+                        mensagem = "Julho";
+                        break;
+                    case 8:
+                        mensagem = "Agosto";
+                        break;
+                    case 9:
+                        mensagem = "Setembro";
+                        break;
+                    case 10:
+                        mensagem = "Outubro";
+                        break;
+                    case 11:
+                        mensagem = "Novembro";
+                        break;
+                    case 12:
+                        mensagem = "Dezembro";
+                        break;
+
+                }
+            }
+
+            MessageBox.Show(mensagem);
+            txtMes.Clear();
+            txtMes.Focus();
+
+        }
     }
 }
