@@ -57,7 +57,7 @@ namespace aula03OperadorLogico
             this.btnLogin.Location = new System.Drawing.Point(12, 115);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(289, 34);
-            this.btnLogin.TabIndex = 2;
+            this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
@@ -67,7 +67,7 @@ namespace aula03OperadorLogico
             this.txtSenha.Location = new System.Drawing.Point(91, 69);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(210, 31);
-            this.txtSenha.TabIndex = 4;
+            this.txtSenha.TabIndex = 2;
             // 
             // label2
             // 
