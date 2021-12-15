@@ -22,29 +22,40 @@ namespace aula02CreditoBanco
             double saldo, credito;
             string mensagem;
 
-            saldo = double.Parse(txtSaldo.Text.Replace(",", "."));
-
-            if (saldo <= 200)
+            if (!double.TryParse(txtSaldo.Text.Replace(",", "."), out saldo))
             {
-                mensagem = "Sem crédito! Saldo Médio de R$ " + saldo.ToString("0.00").Replace(".", ",");
-            }
-            else if (saldo <= 400)
-            {
-                credito = saldo * 0.2;
-                mensagem = "Crédito aprovado de R$ " + credito.ToString("0.00").Replace(".", ",") + "! Saldo Médio de R$ " + saldo.ToString("0.00").Replace(".", ",");
-            }
-            else if (saldo <= 600)
-            {
-                credito = saldo * 0.3;
-                mensagem = "Crédito aprovado de R$ " + credito.ToString("0.00").Replace(".", ",") + "! Saldo Médio de R$ " + saldo.ToString("0.00").Replace(".", ",");
+                MessageBox.Show("Digite um valor válido!", "Crédito", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtSaldo.Clear();
+                txtSaldo.Focus();
+                return;
             }
             else
             {
-                credito = saldo * 0.4;
-                mensagem = "Crédito aprovado de R$ " + credito.ToString("0.00").Replace(".", ",") + "! Saldo Médio de R$ " + saldo.ToString("0.00").Replace(".", ",");
-            }
+                if (saldo <= 200)
+                {
+                    credito = 0;
+                    mensagem = "Crédito Reprovado!";
+                }
+                else if (saldo <= 400)
+                {
+                    credito = saldo * 0.2;
+                    mensagem = "Crédito Aprovado!";
+                }
+                else if (saldo <= 600)
+                {
+                    credito = saldo * 0.3;
+                    mensagem = "Crédito Aprovado!";
+                }
+                else
+                {
+                    credito = saldo * 0.4;
+                    mensagem = "Crédito Aprovado!";
+                }
 
-            MessageBox.Show(mensagem, "Crédito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show($"{mensagem}\nCrédito disponível: R$ {credito.ToString("0.00").Replace(".", ",")}" +
+                                $"\nSaldo Médio de R$ {saldo.ToString("0.00").Replace(".", ",")}",
+                                "Crédito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
     }
 }
