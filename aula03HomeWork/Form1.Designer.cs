@@ -54,9 +54,9 @@ namespace aula03HomeWork
             // 
             // cmbTransacao
             // 
+            this.cmbTransacao.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTransacao.FormattingEnabled = true;
             this.cmbTransacao.Items.AddRange(new object[] {
-            "",
             "Depósito",
             "Saque",
             "Ver Saldo"});
@@ -96,6 +96,7 @@ namespace aula03HomeWork
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

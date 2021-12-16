@@ -16,7 +16,7 @@ namespace aula03HomeWork
         {
             int menu = cmbTransacao.SelectedIndex;
 
-            if (!(double.TryParse(txtValor.Text, out double valor)) && (valor <= 0 && menu != 3))
+            if (!(double.TryParse(txtValor.Text, out double valor)) && (valor <= 0 && menu != 2))
             {
                 MessageBox.Show("Valor informado incorretamente!", "Erro");
                 txtValor.Clear();
@@ -27,21 +27,26 @@ namespace aula03HomeWork
 
             switch (menu)
             {
-                case 1: // Depósito
+                case 0: // Depósito
                     saldo += valor;
                     MessageBox.Show($"Depósito de R$ {valor.ToString("0.00")} realizado com sucesso!", "Depósito");
                     break;
-                case 2: // Saque
+                case 1: // Saque
                     saldo -= valor;
                     MessageBox.Show($"Saque de R$ {valor.ToString("0.00")} realizado com sucesso!", "Saque");
                     break;
-                case 3: // Ver Saldo
+                case 2: // Ver Saldo
                     MessageBox.Show($"Saldo de R$ {saldo.ToString("0.00")} em conta.", "Saldo");
                     break;
                 default:
                     MessageBox.Show("Operação inválida, tente novamente!", "Erro");
                     break;
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            cmbTransacao.SelectedIndex = 0;
         }
     }
 }
