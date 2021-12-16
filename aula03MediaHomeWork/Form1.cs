@@ -19,7 +19,8 @@ namespace aula03MediaHomeWork
 
         private void btnVerificar_Click(object sender, EventArgs e)
         {
-            double n1, n2, media, frequencia,assistida, total;
+            double n1, n2, media, frequencia;
+            int assistida, total;
             string situacao;
 
             //Elabore um programa que leia 2 notas escolares. Calcule a média
@@ -30,9 +31,9 @@ namespace aula03MediaHomeWork
             //Leia também a quantidade de aulas dadas e a quantidade de aulas assistidas
             //pelo aluno e calcule sua frequencia :
             //(aulasAssistidas / aulasDadas) * 100
-            assistida = double.Parse(txtAssistida.Text);
-            total = double.Parse(txtTotal.Text);
-            frequencia = (assistida / total) * 100;
+            assistida = int.Parse(txtAssistida.Text);
+            total = int.Parse(txtTotal.Text);
+            frequencia = ((double)assistida / (double)total) * 100;
 
             //O aluno somente estará aprovado com média maior ou igual a 7 e 
             //frequencia mínima de 75 %
