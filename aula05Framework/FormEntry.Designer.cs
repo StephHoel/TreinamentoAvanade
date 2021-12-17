@@ -32,6 +32,8 @@ namespace aula05Framework
             this.btnArrayInterative = new System.Windows.Forms.Button();
             this.BtnArrayInverse = new System.Windows.Forms.Button();
             this.BtnNota = new System.Windows.Forms.Button();
+            this.BtnMatrizPares = new System.Windows.Forms.Button();
+            this.BtnMatrizes = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnArrayInterative
@@ -64,11 +66,33 @@ namespace aula05Framework
             this.BtnNota.UseVisualStyleBackColor = true;
             this.BtnNota.Click += new System.EventHandler(this.BtnNota_Click);
             // 
+            // BtnMatrizPares
+            // 
+            this.BtnMatrizPares.Location = new System.Drawing.Point(13, 244);
+            this.BtnMatrizPares.Name = "BtnMatrizPares";
+            this.BtnMatrizPares.Size = new System.Drawing.Size(232, 53);
+            this.BtnMatrizPares.TabIndex = 3;
+            this.BtnMatrizPares.Text = "Matriz Pares";
+            this.BtnMatrizPares.UseVisualStyleBackColor = true;
+            this.BtnMatrizPares.Click += new System.EventHandler(this.BtnMatrizPares_Click);
+            // 
+            // BtnMatrizes
+            // 
+            this.BtnMatrizes.Location = new System.Drawing.Point(12, 318);
+            this.BtnMatrizes.Name = "BtnMatrizes";
+            this.BtnMatrizes.Size = new System.Drawing.Size(232, 53);
+            this.BtnMatrizes.TabIndex = 4;
+            this.BtnMatrizes.Text = "Matrizes";
+            this.BtnMatrizes.UseVisualStyleBackColor = true;
+            this.BtnMatrizes.Click += new System.EventHandler(this.BtnMatrizes_Click);
+            // 
             // FormEntry
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(263, 450);
+            this.Controls.Add(this.BtnMatrizes);
+            this.Controls.Add(this.BtnMatrizPares);
             this.Controls.Add(this.BtnNota);
             this.Controls.Add(this.BtnArrayInverse);
             this.Controls.Add(this.btnArrayInterative);
@@ -83,5 +107,7 @@ namespace aula05Framework
         private System.Windows.Forms.Button btnArrayInterative;
         private System.Windows.Forms.Button BtnArrayInverse;
         private System.Windows.Forms.Button BtnNota;
+        private System.Windows.Forms.Button BtnMatrizPares;
+        private System.Windows.Forms.Button BtnMatrizes;
     }
 }

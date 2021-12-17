@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.VisualBasic;
 
@@ -45,6 +38,40 @@ namespace aula05Framework
             media = total / v.Length;
 
             MessageBox.Show($"A média da turma é de: {media.ToString("0.00")}");
+        }
+
+        private void BtnMatrizPares_Click(object sender, EventArgs e)
+        {
+            int[,] valores = new int[3, 2];
+            int pares = 0;
+
+            for (int linha = 0; linha < 3; linha++)
+            {
+                for (int coluna = 0; coluna < 2; coluna++)
+                {
+                    valores[linha, coluna] = int.Parse(Interaction.InputBox($"Digite o elemento da posição {linha + 1},{coluna + 1} na matriz:"));
+                }
+            }
+
+            for (int linha = 0; linha < 3; linha++)
+            {
+                for (int coluna = 0; coluna < 2; coluna++)
+                {
+                    if (valores[linha, coluna] % 2 == 0)
+                    {
+                        pares++;
+                    }
+                }
+            }
+
+            MessageBox.Show($"Quantidade de números pares: {pares}");
+
+        }
+
+        private void BtnMatrizes_Click(object sender, EventArgs e)
+        {
+            FormMatrizes formMatrizes = new FormMatrizes();
+            formMatrizes.Show();
         }
     }
 }

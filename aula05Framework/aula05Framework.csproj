@@ -53,6 +53,12 @@
     <Compile Include="FormEntry.Designer.cs">
       <DependentUpon>FormEntry.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMatrizes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMatrizes.Designer.cs">
+      <DependentUpon>FormMatrizes.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormVetorInverso.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormEntry.resx">
       <DependentUpon>FormEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMatrizes.resx">
+      <DependentUpon>FormMatrizes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormVetorInverso.resx">
       <DependentUpon>FormVetorInverso.cs</DependentUpon>
