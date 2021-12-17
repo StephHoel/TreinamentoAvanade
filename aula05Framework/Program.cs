@@ -16,7 +16,7 @@ namespace aula05Framework
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormArrayInterative());
+            Application.Run(new FormEntry());
         }
     }
 }
