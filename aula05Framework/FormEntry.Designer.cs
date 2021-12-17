@@ -31,6 +31,7 @@ namespace aula05Framework
         {
             this.btnArrayInterative = new System.Windows.Forms.Button();
             this.BtnArrayInverse = new System.Windows.Forms.Button();
+            this.BtnNota = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnArrayInterative
@@ -53,11 +54,22 @@ namespace aula05Framework
             this.BtnArrayInverse.UseVisualStyleBackColor = true;
             this.BtnArrayInverse.Click += new System.EventHandler(this.BtnArrayInverse_Click);
             // 
+            // BtnNota
+            // 
+            this.BtnNota.Location = new System.Drawing.Point(13, 162);
+            this.BtnNota.Name = "BtnNota";
+            this.BtnNota.Size = new System.Drawing.Size(232, 53);
+            this.BtnNota.TabIndex = 2;
+            this.BtnNota.Text = "Array Nota";
+            this.BtnNota.UseVisualStyleBackColor = true;
+            this.BtnNota.Click += new System.EventHandler(this.BtnNota_Click);
+            // 
             // FormEntry
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(263, 450);
+            this.Controls.Add(this.BtnNota);
             this.Controls.Add(this.BtnArrayInverse);
             this.Controls.Add(this.btnArrayInterative);
             this.Name = "FormEntry";
@@ -70,5 +82,6 @@ namespace aula05Framework
 
         private System.Windows.Forms.Button btnArrayInterative;
         private System.Windows.Forms.Button BtnArrayInverse;
+        private System.Windows.Forms.Button BtnNota;
     }
 }
