@@ -34,6 +34,8 @@ namespace aula05Framework
             this.BtnNota = new System.Windows.Forms.Button();
             this.BtnMatrizPares = new System.Windows.Forms.Button();
             this.BtnMatrizes = new System.Windows.Forms.Button();
+            this.BtnLer = new System.Windows.Forms.Button();
+            this.BtnMatriz4x4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnArrayInterative
@@ -68,7 +70,7 @@ namespace aula05Framework
             // 
             // BtnMatrizPares
             // 
-            this.BtnMatrizPares.Location = new System.Drawing.Point(13, 244);
+            this.BtnMatrizPares.Location = new System.Drawing.Point(13, 237);
             this.BtnMatrizPares.Name = "BtnMatrizPares";
             this.BtnMatrizPares.Size = new System.Drawing.Size(232, 53);
             this.BtnMatrizPares.TabIndex = 3;
@@ -78,7 +80,7 @@ namespace aula05Framework
             // 
             // BtnMatrizes
             // 
-            this.BtnMatrizes.Location = new System.Drawing.Point(12, 318);
+            this.BtnMatrizes.Location = new System.Drawing.Point(12, 311);
             this.BtnMatrizes.Name = "BtnMatrizes";
             this.BtnMatrizes.Size = new System.Drawing.Size(232, 53);
             this.BtnMatrizes.TabIndex = 4;
@@ -86,11 +88,33 @@ namespace aula05Framework
             this.BtnMatrizes.UseVisualStyleBackColor = true;
             this.BtnMatrizes.Click += new System.EventHandler(this.BtnMatrizes_Click);
             // 
+            // BtnLer
+            // 
+            this.BtnLer.Location = new System.Drawing.Point(13, 391);
+            this.BtnLer.Name = "BtnLer";
+            this.BtnLer.Size = new System.Drawing.Size(232, 53);
+            this.BtnLer.TabIndex = 5;
+            this.BtnLer.Text = "Ler Matriz";
+            this.BtnLer.UseVisualStyleBackColor = true;
+            this.BtnLer.Click += new System.EventHandler(this.BtnLer_Click);
+            // 
+            // BtnMatriz4x4
+            // 
+            this.BtnMatriz4x4.Location = new System.Drawing.Point(13, 466);
+            this.BtnMatriz4x4.Name = "BtnMatriz4x4";
+            this.BtnMatriz4x4.Size = new System.Drawing.Size(232, 53);
+            this.BtnMatriz4x4.TabIndex = 6;
+            this.BtnMatriz4x4.Text = "Matriz 4x4";
+            this.BtnMatriz4x4.UseVisualStyleBackColor = true;
+            this.BtnMatriz4x4.Click += new System.EventHandler(this.BtnMatriz4x4_Click);
+            // 
             // FormEntry
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(263, 450);
+            this.ClientSize = new System.Drawing.Size(263, 581);
+            this.Controls.Add(this.BtnMatriz4x4);
+            this.Controls.Add(this.BtnLer);
             this.Controls.Add(this.BtnMatrizes);
             this.Controls.Add(this.BtnMatrizPares);
             this.Controls.Add(this.BtnNota);
@@ -109,5 +133,7 @@ namespace aula05Framework
         private System.Windows.Forms.Button BtnNota;
         private System.Windows.Forms.Button BtnMatrizPares;
         private System.Windows.Forms.Button BtnMatrizes;
+        private System.Windows.Forms.Button BtnLer;
+        private System.Windows.Forms.Button BtnMatriz4x4;
     }
 }
