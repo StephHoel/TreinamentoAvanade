@@ -81,9 +81,9 @@ namespace aula05Framework
             int[,] mat = new int[2, 2];
             int soma = 0;
 
-            for (int i = 0; i < 2; i++)
+            for (int i = 0; i < mat.GetLength(0); i++)
             {
-                for (int j = 0; j < 2; j++)
+                for (int j = 0; j < mat.GetLength(1); j++)
                 {
                     mat[i, j] = int.Parse(Interaction.InputBox($"Digite o número da posição {i + 1},{j + 1} na matriz:"));
                     soma += mat[i, j];
@@ -107,9 +107,9 @@ namespace aula05Framework
             double media;
             string multip = "";
 
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < mat.GetLength(0); i++)
             {
-                for (int j = 0; j < 4; j++)
+                for (int j = 0; j < mat.GetLength(1); j++)
                 {
                     mat[i, j] = int.Parse(Interaction.InputBox($"Digite o número da posição {i + 1},{j + 1} na matriz:"));
                 }
